@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18A369E204ADEB3004D255A /* logo1000.png in Resources */ = {isa = PBXBuildFile; fileRef = C18A369B204ADEAA004D255A /* logo1000.png */; };
+		C18A369F204ADEB3004D255A /* logo1000.png in Resources */ = {isa = PBXBuildFile; fileRef = C18A369B204ADEAA004D255A /* logo1000.png */; };
+		C18A36A1204ADFE8004D255A /* logo1000.png in Copy Files */ = {isa = PBXBuildFile; fileRef = C18A369B204ADEAA004D255A /* logo1000.png */; };
+		C1929D31204A1104005CD59B /* AltLabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D30204A1104005CD59B /* AltLabsView.swift */; };
+		C1929D39204A1200005CD59B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D38204A1200005CD59B /* AppDelegate.swift */; };
+		C1929D40204A1200005CD59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1929D3E204A1200005CD59B /* Main.storyboard */; };
+		C1929D47204A121F005CD59B /* PreviewWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D46204A121F005CD59B /* PreviewWindowController.swift */; };
+		C1929D48204A124E005CD59B /* AltLabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D30204A1104005CD59B /* AltLabsView.swift */; };
+		C1929D4D204A18C3005CD59B /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D4C204A18C3005CD59B /* NSImage.swift */; };
+		C1929D4E204A1A2B005CD59B /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D4C204A18C3005CD59B /* NSImage.swift */; };
+		C1929D50204A1DF4005CD59B /* RotatingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D4F204A1DF4005CD59B /* RotatingImage.swift */; };
+		C1929D51204A1DF8005CD59B /* RotatingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1929D4F204A1DF4005CD59B /* RotatingImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C18A36A0204ADFDA004D255A /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				C18A36A1204ADFE8004D255A /* logo1000.png in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C18A369B204ADEAA004D255A /* logo1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1000.png; sourceTree = "<group>"; };
+		C1929D23204A10F1005CD59B /* AltLabsScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltLabsScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1929D2A204A10F1005CD59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1929D30204A1104005CD59B /* AltLabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltLabsView.swift; sourceTree = "<group>"; };
+		C1929D36204A1200005CD59B /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1929D38204A1200005CD59B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1929D3F204A1200005CD59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1929D41204A1200005CD59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1929D42204A1200005CD59B /* Preview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Preview.entitlements; sourceTree = "<group>"; };
+		C1929D46204A121F005CD59B /* PreviewWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewWindowController.swift; sourceTree = "<group>"; };
+		C1929D4C204A18C3005CD59B /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		C1929D4F204A1DF4005CD59B /* RotatingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1929D1F204A10F1005CD59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1929D33204A1200005CD59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1929D19204A10F1005CD59B = {
+			isa = PBXGroup;
+			children = (
+				C1929D25204A10F1005CD59B /* AltLabsScreenSaver */,
+				C1929D37204A1200005CD59B /* Preview */,
+				C1929D24204A10F1005CD59B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1929D24204A10F1005CD59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1929D23204A10F1005CD59B /* AltLabsScreenSaver.saver */,
+				C1929D36204A1200005CD59B /* Preview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1929D25204A10F1005CD59B /* AltLabsScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				C1929D2A204A10F1005CD59B /* Info.plist */,
+				C1929D30204A1104005CD59B /* AltLabsView.swift */,
+				C18A369B204ADEAA004D255A /* logo1000.png */,
+				C1929D4C204A18C3005CD59B /* NSImage.swift */,
+				C1929D4F204A1DF4005CD59B /* RotatingImage.swift */,
+			);
+			path = AltLabsScreenSaver;
+			sourceTree = "<group>";
+		};
+		C1929D37204A1200005CD59B /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				C1929D38204A1200005CD59B /* AppDelegate.swift */,
+				C1929D3E204A1200005CD59B /* Main.storyboard */,
+				C1929D41204A1200005CD59B /* Info.plist */,
+				C1929D42204A1200005CD59B /* Preview.entitlements */,
+				C1929D46204A121F005CD59B /* PreviewWindowController.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1929D20204A10F1005CD59B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1929D22204A10F1005CD59B /* AltLabsScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1929D2D204A10F1005CD59B /* Build configuration list for PBXNativeTarget "AltLabsScreenSaver" */;
+			buildPhases = (
+				C1929D1E204A10F1005CD59B /* Sources */,
+				C1929D1F204A10F1005CD59B /* Frameworks */,
+				C1929D20204A10F1005CD59B /* Headers */,
+				C1929D21204A10F1005CD59B /* Resources */,
+				C18A36A0204ADFDA004D255A /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltLabsScreenSaver;
+			productName = AltLabsScreenSaver;
+			productReference = C1929D23204A10F1005CD59B /* AltLabsScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C1929D35204A1200005CD59B /* Preview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1929D43204A1200005CD59B /* Build configuration list for PBXNativeTarget "Preview" */;
+			buildPhases = (
+				C1929D32204A1200005CD59B /* Sources */,
+				C1929D33204A1200005CD59B /* Frameworks */,
+				C1929D34204A1200005CD59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Preview;
+			productName = Preview;
+			productReference = C1929D36204A1200005CD59B /* Preview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1929D1A204A10F1005CD59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alternate Labs";
+				TargetAttributes = {
+					C1929D22204A10F1005CD59B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					C1929D35204A1200005CD59B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1929D1D204A10F1005CD59B /* Build configuration list for PBXProject "AltLabsScreenSaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1929D19204A10F1005CD59B;
+			productRefGroup = C1929D24204A10F1005CD59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1929D22204A10F1005CD59B /* AltLabsScreenSaver */,
+				C1929D35204A1200005CD59B /* Preview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1929D21204A10F1005CD59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18A369E204ADEB3004D255A /* logo1000.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1929D34204A1200005CD59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1929D40204A1200005CD59B /* Main.storyboard in Resources */,
+				C18A369F204ADEB3004D255A /* logo1000.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1929D1E204A10F1005CD59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1929D4D204A18C3005CD59B /* NSImage.swift in Sources */,
+				C1929D31204A1104005CD59B /* AltLabsView.swift in Sources */,
+				C1929D50204A1DF4005CD59B /* RotatingImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1929D32204A1200005CD59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1929D4E204A1A2B005CD59B /* NSImage.swift in Sources */,
+				C1929D51204A1DF8005CD59B /* RotatingImage.swift in Sources */,
+				C1929D39204A1200005CD59B /* AppDelegate.swift in Sources */,
+				C1929D48204A124E005CD59B /* AltLabsView.swift in Sources */,
+				C1929D47204A121F005CD59B /* PreviewWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1929D3E204A1200005CD59B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1929D3F204A1200005CD59B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1929D2B204A10F1005CD59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1929D2C204A10F1005CD59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1929D2E204A10F1005CD59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 325PT3Z4H8;
+				INFOPLIST_FILE = AltLabsScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = co.alternatelabs.AltLabsScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		C1929D2F204A10F1005CD59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 325PT3Z4H8;
+				INFOPLIST_FILE = AltLabsScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = co.alternatelabs.AltLabsScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		C1929D44204A1200005CD59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Preview/Preview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 325PT3Z4H8;
+				INFOPLIST_FILE = Preview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.alternatelabs.Preview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C1929D45204A1200005CD59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Preview/Preview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 325PT3Z4H8;
+				INFOPLIST_FILE = Preview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.alternatelabs.Preview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1929D1D204A10F1005CD59B /* Build configuration list for PBXProject "AltLabsScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1929D2B204A10F1005CD59B /* Debug */,
+				C1929D2C204A10F1005CD59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1929D2D204A10F1005CD59B /* Build configuration list for PBXNativeTarget "AltLabsScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1929D2E204A10F1005CD59B /* Debug */,
+				C1929D2F204A10F1005CD59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1929D43204A1200005CD59B /* Build configuration list for PBXNativeTarget "Preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1929D44204A1200005CD59B /* Debug */,
+				C1929D45204A1200005CD59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1929D1A204A10F1005CD59B /* Project object */;
+}
